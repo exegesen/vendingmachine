@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-namespace vendingmachine
+namespace VendingMachineNamespace
 {
-    internal class VendingMachine : IVending
+    public class VendingMachine : IVending
     {
         List<Product> products;
         private readonly int[] denominations = { 1, 5, 10, 20, 50, 100, 500, 1000 };
